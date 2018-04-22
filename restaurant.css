@@ -1,0 +1,252 @@
+*{
+	margin:0px;
+	padding:0px;
+	text-decoration:none;
+}
+#home,#blankbox1,#specialties,#blankbox2,#emptyimage,#menu{
+    margin-left:10%;
+	margin-right:10%;
+}
+body{
+	background-size:cover;
+	
+		
+}
+#home{
+	background-image:url("tacobackground.jpg");
+	/*filter:brightness(80%);*/
+	height:800px;
+	background-size:cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+	border: solid black 1px;
+	margin-top:50px;
+    padding-top:2%;	
+	
+	
+}
+#home header{
+	color:white;
+	font-family: 'Pacifico', cursive;
+	display:inline;
+	font-size:3vw;
+    margin-left:4%;
+    	
+}
+
+#home nav, a:visited{
+	color:white;
+    font-family: 'pacifico', cursive;
+	display:inline; 
+	margin-left:32%;
+	font-size:2vw;
+	
+}
+#home a:hover{
+	background:black;
+	font-size:30px; 	
+}
+#home h1{
+	color:black;
+	font-size:7vw;
+	text-align:center;
+	margin-top:15%;
+	font-family: 'Pacifico', cursive;
+	color:white;
+	text-shadow: 1px 2px black;
+
+}
+#home p{
+	
+	color:black;
+	font-size:4vw;
+	text-align:center;
+	text-shadow: 1px 2px black;
+	color:white;
+}
+#blankbox1{
+	height:370px;
+	background-color:beige;
+
+}
+#about{
+	height:430px;
+	width:56%;
+    margin-left:22%;
+	margin-right:22%;
+	background-color:white;
+	position:absolute;
+	top:850px;
+	border:solid black 2px;
+	z-index:2;
+
+}
+.about-top{
+	background-color:white;
+	height:50%;
+	border-bottom:1px solid black;
+}
+.about-bottom{
+	background-color:white;
+	height:50%;
+}
+#about #map{
+	height:100%;
+	width:75%;
+	margin-right:0%;
+	float:right;
+	border-left:1px solid black;
+	border-bottom:1px solid black;
+	
+}
+#about #about-image{
+	height:100%;
+	width:25%;
+	float:left;
+	
+}
+#about h1{
+	font-size:1.5vw;
+	font-family: 'Pacifico', cursive;
+	text-align:center;
+}
+#about p{
+	font-size:1vw;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	margin-left:2%;
+}
+#specialties{
+	height:400px;
+	background-image: url("onion.jpg");
+	background-size:100%;
+    background-position: center;
+	
+
+}
+#specialties h1{
+   position:relative;
+   left:40%;
+   top:45%;
+   font-size:2vw;
+   color:white;
+   font-family: 'Nunito Sans', sans-serif;
+   
+   
+}
+#specialtiesmenu{
+	height:430px;
+    width:56%;
+    margin-left:22%;
+	margin-right:22%;
+	background-color:white;
+	position:absolute;
+	top:1620px;
+	border:solid black 2px;
+	z-index:2;
+	
+}
+#specialtiesmenu h1{
+	font-size:1.5vw;
+	text-align:center;
+	margin-top:10%;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	font-weight:bold;
+}
+#specialtiesmenu p{
+	font-size:.9vw;
+	text-align:center;
+	margin-top:5%;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	font-weight:normal;
+}
+#specialtiesmenu span{
+	color:#C59D39;
+	margin-left:23%;
+	margin-top:10%;
+	font-weight:bold;
+	font-size:1.2vw;
+}
+.specialtiesmenu-top{
+ width:25%;
+ height:50%;
+ float:left;
+	
+}
+.specialtiesmenu-bottom{
+	float:left;
+	width:25%;
+	height:50%;
+	
+}
+#blankbox2{
+	height:370px;
+	background-color:beige;
+	
+}
+#emptyimage{
+	height:430px;
+	background-image:url("taqueromucho.jpg");
+	background-position:center;
+	background-size:100%;
+	filter:brightness(80%);
+	
+}
+#menu{
+	height:1200px;
+	background-color:white;
+	margin-bottom:200px;	
+	padding-top:5%;
+}
+#menuwrapper h1{
+ text-align:center;
+ font-size:60px;
+ font-family: 'pacifico', cursive;
+ font-weight:normal;
+
+ 
+}
+#menu h2{
+	text-align:center;
+	margin-top:10%;
+	margin-bottom:3%;
+	font-size:2vw;
+	
+}
+#menu h3{
+	font-size:1.5vw;
+	margin-bottom:-4%;
+	margin-top:5%;
+}
+#menu h4 {
+	margin-top:10%;
+	margin-bottom:3%;
+	text-align:center;
+	 font-size:2vw;
+}
+#menu p{
+	display:inline;
+	font-size:1vw;
+	
+}
+#menu .menuitems{
+	width:45%;
+	float:left;
+	margin-left:5%;
+	
+	
+}
+#menu .menuitems span{
+	font-size:2.8vw;
+	color:#C59D39;
+	font-weight:bold;
+
+}
+
+
+#menuwrapper{
+	margin-left:7%;
+	margin-right:7%;
+
+}
+
+

@@ -1,0 +1,164 @@
+*{
+	margin:0px;
+	padding:0px;
+	
+
+}
+body{
+	background:gainsboro;
+	
+}
+#imagewrapper{
+	width:75%;	
+}
+
+.images{
+    height:600px;
+	width:100%;
+	border-radius:8px;
+	margin-top:3.5%;
+	margin-left:2%;
+	display:none;
+}
+#previous{
+	display:block;
+	position:absolute;
+	top:40%;
+	left:2%;
+	font-size:3vw;
+	color:white;
+	background-color:black;
+	padding-left:1%;
+	padding-right:1%;
+}
+#previous:hover{
+	background:gray;
+}
+#next{
+	display:block;
+	position:absolute;
+	top:40%;
+	left:72.5%;
+	font-size:3vw;
+	color:white;
+	background-color:black;
+	padding-left:1%;
+	padding-right:1%;
+}
+#next:hover{
+	 background-color:gray;
+}
+#sideinfo{
+	width:20%;
+	height:600px;
+    position:absolute;
+	top:5%;
+	left:77%;
+	border-radius:8px;
+	border:1px solid black;
+	background-color:white;
+}
+#sideinfo h1 {
+	
+	margin-top:10%;
+	margin-left:5%;
+	background-color:white;
+	font-size:2.5vw;
+	font-family:'Nunito Sans', sans-serif;
+	
+}
+#sideinfo h2{
+	font-weight:normal;
+	margin-top:2%;
+	margin-left:5%;
+	font-size: 1.2vw;
+	background-color:white;
+	font-family:'Nunito Sans', sans-serif;
+}
+#contact-information p{
+	font-size: 25px;
+	text-align:center;
+	margin-top: 15%;
+	margin-bottom:5%;
+	background-color:white;
+	font-family:'Nunito Sans', sans-serif;
+	font-weight: bold;
+}
+#contact-information button{
+	margin-left:10%;
+	width:80%;
+	padding-top:3%;
+	padding-bottom:3%;
+	background-color:goldenrod;
+	font-family:'Nunito Sans', sans-serif;
+	font-size:1vw;
+	border-radius:5px;
+	margin-top:1%;
+}
+#infowrapper{
+	margin-top:2%;
+	height:1000px;
+}
+#dimensions{
+	border:1px solid black;
+	background-color:white;
+	height:10%;
+	margin-left:20%;
+	margin-right:20%;
+	border-radius:8px;
+	margin-bottom:1%;
+	
+}
+#dimensions p{
+	margin-top:4%;
+	margin-left:10%;
+	font-size:1.5vw;
+	float:left;
+
+	
+}
+#features{
+	border:1px solid black;
+	background:white;
+	height:15%;
+	margin-left:20%;
+	margin-right:20%;
+	border-radius:8px;
+	margin-bottom:1%;
+}
+#features .icons{
+    float:left;
+	font-size:1.6vw;
+	width:21%;
+	margin-left:10%;
+	margin-top:3%;
+	
+}
+#mortgagecalculator{
+	border:1px solid black;
+    background-color:white;
+	height:20%;
+	margin-left:20%;
+	margin-right:20%;
+	border-radius:8px;
+	margin-bottom:1%;
+}
+#mortgagecalculator h1{
+	margin-left:30%;
+	margin-top:-14%;
+	font-size:2.5vw;
+}
+form{
+	margin-left:5%;
+	margin-top:2%;
+	
+
+}
+#map{
+	border:1px solid black;
+	height:40%;
+	margin-bottom:20%;
+	margin-left:20%;
+	margin-right:20%;
+	border-radius:8px;
+}

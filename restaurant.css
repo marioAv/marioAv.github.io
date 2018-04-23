@@ -34,13 +34,16 @@ body{
     	
 }
 
-#home nav, a:visited{
+#home nav{
 	color:white;
     font-family: 'pacifico', cursive;
 	display:inline; 
 	margin-left:32%;
 	font-size:2vw;
 	
+}
+nav a{
+	color:white;
 }
 #home a:hover{
 	background:black;

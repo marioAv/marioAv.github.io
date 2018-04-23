@@ -12,16 +12,17 @@ html,body{
 }
 #home{
 	height:830px;
+    background-image: url("Developer background.jpg");
+	background-size:cover;
+	background-position:center;
 }
-img{
-	
-	height:850px;
-	width:100%;
+#hamburger-menu{
+	display:none;
 }
 nav{
-	position:relative;
-	top:-95%;
-	left:65%;
+	margin-left:62%;
+	padding-top:3%;
+	display:block;
 	
 	
 
@@ -33,28 +34,24 @@ nav a{
 	font-family: 'Nunito Sans', sans-serif;
 	text-shadow:2px 2px black;
 	margin-left:10px;
+	width:15%;
 }
 nav hr{
-	width:34%;
+	width:90%;
 }
 a:hover{
 	background-color:white;
 	
 }
-#head{
-	margin-left:200px;
-	margin-right:200px;
-	
-	
-}
+
 #head {
-    position:relative;
-    top:-70%;
-	color:white;
+   	color:white;
 	text-shadow:2px 2px black;
 	font-size:4.2vw;
 	font-family: 'Nunito Sans', sans-serif;
-	margin-left:300px;
+	margin-left:20%;
+	margin-right:15%;
+	margin-top:14%;
 }
 #portfolio{
 	height:1500px;
@@ -95,6 +92,10 @@ a:hover{
 	border-bottom: 1px solid #1f1209;
 	box-shadow: 0 20px 20px -20px #333;
     margin: -50px auto 40px; 
+}
+#portfolio a{
+	text-decoration:none;
+	color:black;
 }
 #Skills{
 	background: #e6e6e6;
@@ -182,6 +183,58 @@ a:hover{
 	
 }
 
+/*Media Queries*/
+ 
+ 
+/*Tablet Media Query*/
+@media screen and (max-width:800px){
+	
+	nav {
+	 margin-left:0%;
+	}
+	nav a{
+		margin-left:8%;
+		font-size:4vw;	
+	}
+	nav hr{
+		width:100%;
+	}
+	#head{
+		margin-top:40%;
+		font-size:6.2vw;
+		
+	}
+	#portfolio{
+		height:1000px;
+	}
+	#portfolio h1{
+		font-size:35px;
+		margin-bottom:4%;
+	}
+	#portfolio .imac{
+		position:relative;
+		left:2%;
+		height:24%;
+		width:62%;	
+	}
+	#portfolio h2{
+		position:relative;
+		left:64%;
+		top:-140px;
+		font-size:4vw;
+		
+	}
+	#technologies{
+		height:300px;
+	}
+	#technologies h1{
+		font-size:35px;
+	}
+	#technologies .box i{
+		margin-left:30%;
+	}
 
+	
 
+	
 

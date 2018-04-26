@@ -116,10 +116,17 @@
  <script type="text/javascript">
   var iconMenu= document.getElementById("hamburger-menu");
   var menu= document.getElementsByTagName("NAV");
+  var head= document.getElementById("head");
 
   iconMenu.addEventListener("click", function(){
   
-	menu[0].style.display= "block";
+   if(menu[0].style.display == "none"){
+   menu[0].style.display = "block";
+   head.style.display="none";
+   }
+	
+	else {menu[0].style.display= "none";
+	      head.style.display="block";}
 	
 
 	

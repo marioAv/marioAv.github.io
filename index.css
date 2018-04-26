@@ -236,5 +236,60 @@ a:hover{
 
 }	
 
+/*Mobile Media Query*/
+@media screen and (max-width:420px){
+	nav{
+		background:black;
+		display:none;
+	}
+	nav a{
+		display:block;
+		background:black;
+		width:100%;
+		margin-left:0%;
+		border-bottom:1px solid gainsboro;
+		padding:10px;
+		
+	}
 	
+	nav hr{
+		display:none;
+	}
+	#home{
+		height:600px;
+	}
+	#head{
+		margin-top:40%;
+		font-size:6.5vw;
+	}
+	#portfolio .imac{
+		margin-top:5%;
+		width:120%;
+		left:-10%;
+	}
+	#portfolio h1{
+		display:none;
+	}
+	#portfolio h2{
+		left:32%;
+		top:-255px;
+		font-size:6.5vw;
+	}
+	#technologies{
+		height:420px;
+	}
+	#technologies .text{
+		font-size:5vw;
+	}
+	#technologies .box{
+		width:45%;
+	}
+	#hamburger-menu{
+		display:block;
+		margin-left:88%;
+		margin-right:2%;
+		color:white;
+	}
+	
+}		
 

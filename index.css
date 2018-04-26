@@ -33,7 +33,7 @@ nav a{
 	text-decoration:none;
 	font-family: 'Nunito Sans', sans-serif;
 	text-shadow:2px 2px black;
-	margin-left:10px;
+	margin-left:4%;
 	width:15%;
 }
 nav hr{
@@ -193,7 +193,7 @@ a:hover{
 	 margin-left:0%;
 	}
 	nav a{
-		margin-left:8%;
+		margin-left:10%;
 		font-size:4vw;	
 	}
 	nav hr{

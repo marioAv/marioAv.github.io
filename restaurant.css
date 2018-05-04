@@ -47,10 +47,10 @@ nav a{
 }
 #home a:hover{
 	background:black;
-	font-size:30px; 	
+	font-size:23px; 	
 }
 #home h1{
-	color:black;
+	
 	font-size:7vw;
 	text-align:center;
 	margin-top:15%;
@@ -196,53 +196,55 @@ nav a{
 	
 }
 #menu{
-	height:1200px;
+	height:1250px;
 	background-color:white;
 	margin-bottom:200px;	
 	padding-top:5%;
 }
-#menuwrapper h1{
+#menu h1{
  text-align:center;
  font-size:60px;
  font-family: 'pacifico', cursive;
  font-weight:normal;
 
+
  
 }
 #menu h2{
 	text-align:center;
-	margin-top:10%;
+	margin-top:7%;
 	margin-bottom:3%;
 	font-size:2vw;
 	
 }
 #menu h3{
 	font-size:1.5vw;
-	margin-bottom:-4%;
-	margin-top:5%;
 }
-#menu h4 {
-	margin-top:10%;
-	margin-bottom:3%;
-	text-align:center;
-	 font-size:2vw;
-}
+
 #menu p{
-	display:inline;
 	font-size:1vw;
 	
 }
+#menu span{
+	margin-top:10px;
+}
 #menu .menuitems{
-	width:45%;
+	margin-left:9%;
+	margin-bottom:3%;
+    width:27%;
 	float:left;
-	margin-left:5%;
+
 	
 	
 }
-#menu .menuitems span{
-	font-size:2.8vw;
+#menu .item-price{
+	float:left;
+	
+	width:10%;
+	font-size:3vw;
 	color:#C59D39;
 	font-weight:bold;
+	
 
 }
 
@@ -253,4 +255,90 @@ nav a{
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES*/
+
+/* Tablet Responsive*/
+@media screen and (max-width:800px){
+	#home,#blankbox1,#specialties,#blankbox2,#emptyimage,#menu{
+		margin-left:5%;
+		margin-right:5%;
+	}
+	
+	#home header{
+		
+		font-size:4vw;
+	}
+	#home nav{
+		margin-left:18%;
+		font-size:2.6vw;
+		
+	}
+	#home h1{
+		margin-top:40%;
+		font-size:60px;
+		
+	}
+	#about, #specialtiesmenu{
+      height:400px;
+	  width:70%;
+	  margin-left:15%;
+	  margin-right:15%;
+	}
+	#about h1{
+		font-size:2.7vw;
+	}
+	#about p{
+		font-size:1.8vw;
+	}
+	#specialties h1{
+		font-size:3.7vw;
+		left:35%;
+	}
+	#specialtiesmenu h1{
+		font-size:2.5vw;
+	}
+	#specialtiesmenu p{
+		font-size:1.6vw;
+	}
+	#specialtiesmenu span{
+		font-size:1.8vw;
+	}
+	#menu{
+		height:1000px;
+	}
+    #menu .menuitems{
+	margin-left:7%;
+	width:29%;
+	
+	}
+	#menu .item-price{
+		margin-top:24px;
+		margin-left:2%;
+		font-size:3vw;
+	}
+	#menu h2{
+		font-size:30px;
+	}
+	#menu h3{
+		font-size:2.5vw;
+	}
+	#menu p{
+		font-size:1.5vw;
+	}
+}
 

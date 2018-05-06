@@ -8,8 +8,9 @@
 	margin-right:10%;
 }
 body{
-	background-size:cover;
-	overflow-x: hidden;
+	background-size:100% 100%;
+	  background-repeat:no-repeat;
+	  overflow-x:hidden;
 	
 		
 }
@@ -353,6 +354,7 @@ nav a{
 
 
 @media screen and (max-width:400px){
+
 	#home,#blankbox1,#specialties,#blankbox2,#emptyimage,#menu{
     margin-left:2%;
 	margin-right:2%;

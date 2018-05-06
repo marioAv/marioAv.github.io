@@ -10,3 +10,24 @@
           map: map
         });
       }
+	  
+  var iconMenu= document.getElementById("hamburger-menu");
+  var menu= document.getElementsByTagName("NAV");
+  var title= document.querySelector("#home h1");
+  var titleP= document.querySelector("#home p");
+
+  iconMenu.addEventListener("click", function(){
+  
+   if(menu[0].style.display == "none"){
+   menu[0].style.display = "block";
+   title.style.display="none";
+   titleP.style.display="none";
+   }
+	
+	else {menu[0].style.display= "none";
+	      title.style.display="block";
+		  titleP.style.display="block";}
+	
+
+	
+  });

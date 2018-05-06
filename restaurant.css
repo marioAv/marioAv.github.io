@@ -253,8 +253,6 @@ nav a{
 	
 
 }
-
-
 #menuwrapper{
 	margin-left:7%;
 	margin-right:7%;
@@ -296,7 +294,7 @@ nav a{
 	}
 	#home h1{
 		top:35%;
-		font-size:60px;
+		font-size:10vw;
 		
 	}
 	#home p{
@@ -359,32 +357,63 @@ nav a{
     margin-left:2%;
 	margin-right:2%;
 }
-	#home h1 {
-	
+	#home{
+		margin-top:5%;
 	}
-	#home header, #home nav{
+	#home h1 {
+	 font-size:13vw;
+	 left:8%;
+	}
+	#home p{
+		font-size:6vw;
+	}
+	#home header{
 		display:none;
 	}
+	#home nav{
+		display:none;
+		margin-top:50px;
+		margin-left:0%;
+	}
+	#home nav a{
+	font-size:5vw;
+	opacity: 0.5;
+    filter: alpha(opacity=50);
+	display:block;
+	background:black;
+	border-bottom:1px solid gainsboro;
+	padding:10px;
+		 
+	 }
 	#home #hamburger-menu{
 		display:block;
 		float:right;
 		margin-right:10px;
 	}
 	#about{
-      
+      top:810px;
 	  width:90%;
 	  margin-left:5%;
 	  margin-right:5%;
 	}
 	#blankbox2{
-	height:900px;
+	height:775px;
 	background-color:beige;
 	}
+	#specialties{
+		height:250px;
+	}
+	#specialties h1{
+		font-size:6.5vw;
+		left:27%;
+	}
 	#specialtiesmenu{
-		height:500px;
+		top:1430px;
+		height:400px;
 		width:90%;
 		margin-left:5%;
 		margin-right:5%;
+		border:none;
 	}
 	.specialtiesmenu-top{
  width:50%;
@@ -408,6 +437,9 @@ nav a{
 	}
 	#specialtiesmenu span{
 		font-size:3.6vw;
+	}
+	#emptyimage{
+		height:250px;
 	}
 	#menu{
 		height:1500px;

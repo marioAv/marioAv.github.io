@@ -9,6 +9,7 @@
 }
 body{
 	background-size:cover;
+	overflow-x: hidden;
 	
 		
 }
@@ -21,9 +22,11 @@ body{
     background-repeat: no-repeat;
 	border: solid black 1px;
 	margin-top:50px;
-    padding-top:2%;	
-	
-	
+    padding-top:2%;		
+}
+#home #hamburger-menu{
+	color:white;
+	display:none;
 }
 #home header{
 	color:white;
@@ -53,14 +56,16 @@ nav a{
 	
 	font-size:7vw;
 	text-align:center;
-	margin-top:15%;
+	position:relative;
+	top:26%;
 	font-family: 'Pacifico', cursive;
 	color:white;
 	text-shadow: 1px 2px black;
 
 }
 #home p{
-	
+    position:relative;
+	top:26%;
 	color:black;
 	font-size:4vw;
 	text-align:center;
@@ -137,7 +142,7 @@ nav a{
    
 }
 #specialtiesmenu{
-	height:430px;
+	height:1000px;
     width:56%;
     margin-left:22%;
 	margin-right:22%;
@@ -172,14 +177,14 @@ nav a{
 }
 .specialtiesmenu-top{
  width:25%;
- height:50%;
+ height:25%;
  float:left;
 	
 }
 .specialtiesmenu-bottom{
 	float:left;
 	width:25%;
-	height:50%;
+	height:25%;
 	
 }
 #blankbox2{
@@ -289,9 +294,12 @@ nav a{
 		
 	}
 	#home h1{
-		margin-top:40%;
+		top:35%;
 		font-size:60px;
 		
+	}
+	#home p{
+		top:35%;
 	}
 	#about, #specialtiesmenu{
       height:400px;
@@ -342,3 +350,85 @@ nav a{
 	}
 }
 
+
+
+@media screen and (max-width:400px){
+	#home,#blankbox1,#specialties,#blankbox2,#emptyimage,#menu{
+    margin-left:2%;
+	margin-right:2%;
+}
+	#home h1 {
+	
+	}
+	#home header, #home nav{
+		display:none;
+	}
+	#home #hamburger-menu{
+		display:block;
+		float:right;
+		margin-right:10px;
+	}
+	#about{
+      
+	  width:90%;
+	  margin-left:5%;
+	  margin-right:5%;
+	}
+	#blankbox2{
+	height:900px;
+	background-color:beige;
+	}
+	#specialtiesmenu{
+		height:500px;
+		width:90%;
+		margin-left:5%;
+		margin-right:5%;
+	}
+	.specialtiesmenu-top{
+ width:50%;
+ height:50%;
+ float:left;
+	
+}
+	.specialtiesmenu-bottom{
+	float:left;
+	width:50%;
+	height:50%;
+	background-color:white;
+	
+	
+}
+	#specialtiesmenu h1{
+		font-size:5vw;
+	}
+	#specialtiesmenu p{
+		font-size:3.2vw;
+	}
+	#specialtiesmenu span{
+		font-size:3.6vw;
+	}
+	#menu{
+		height:1500px;
+	}
+	#menu .menuitems{
+	margin-left:3%;
+	width:80%;
+	
+	}
+	#menu .item-price{
+		margin-top:28px;
+		margin-left:1%;
+		font-size:6vw;
+	}
+	#menu h2{
+		font-size:30px;
+		margin-bottom:50px;
+	}
+	#menu h3{
+		font-size:5.5vw;
+	}
+	#menu p{
+		font-size:3.5vw;
+	}
+	
+}

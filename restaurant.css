@@ -15,7 +15,7 @@ body{
 		
 }
 #home{
-	background-image:url("tacobackground.jpg");
+	background-image:url("tacobackground-min.jpg");
 	/*filter:brightness(80%);*/
 	height:800px;
 	background-size:cover;
@@ -126,7 +126,7 @@ nav a{
 }
 #specialties{
 	height:400px;
-	background-image: url("onion.jpg");
+	background-image: url("onion-min.jpg");
 	background-size:100%;
     background-position: center;
 	
@@ -195,7 +195,7 @@ nav a{
 }
 #emptyimage{
 	height:430px;
-	background-image:url("taqueromucho.jpg");
+	background-image:url("taqueromucho-min.jpg");
 	background-position:center;
 	background-size:100%;
 	filter:brightness(80%);

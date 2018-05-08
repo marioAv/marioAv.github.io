@@ -12,7 +12,7 @@ html,body{
 }
 #home{
 	height:830px;
-    background-image: url("Developer background.jpg");
+    background-image: url("Developer background-min.jpg");
 	background-size:cover;
 	background-position:center;
 }

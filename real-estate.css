@@ -180,6 +180,9 @@ body{
 	body{
 		overflow-x:hidden;
 	}
+	#wrapper{
+		height:20px;
+	}
 	.houselistings{
 		width:115%;
 		margin-left:-29%;

@@ -22,16 +22,11 @@ rightArrow.addEventListener("click", function(){
 	
 })
 leftArrow.addEventListener("click", function(){
-	if(i == 0){i= slideshowImages.length-1 ;}
-	if(j == -1){j= slideshowImages.length -1;}
+	
+        if(i < slideshowImages.length -1){i--;}
+        if(j < slideshowImages.length-1){j--;}
 	slideshowImages[i].style.display="block"
 	slideshowImages[j].style.display="none";
-	i--;
-	j--;
-	
-	
-	console.log("left SHOW I IS " + i);
-	console.log("left HIDE J IS " + j);
 })
 
 

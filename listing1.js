@@ -13,8 +13,8 @@ rightArrow.addEventListener("click", function(){
 	
         if(i < slideshowImages.length -1){i++;}
         if(j < slideshowImages.length-1){j++;}
-	slideshowImages[i].style.display="block"
-	slideshowImages[j].style.display="none";
+	slideshowImages[i].style.display="none"
+	slideshowImages[j].style.display="block";
 	
 
 	

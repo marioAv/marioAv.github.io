@@ -7,21 +7,17 @@ var rightArrow=document.getElementById("next");
 //Adds functionality to the slideshow arrows
 slideshowImages[0].style.display="block";
 var i=0;
-var j=0;
-console.log(i);
-console.log(j);
-rightArrow.addEventListener("click", function(){
-	if(slideshowImages.length -1 == i){i=-1;}
-    if(slideshowImages.length == j){j= 0;}
-	slideshowImages[i+1].style.display="block"
-	slideshowImages[j].style.display="none";
-	i++;
-	j++;
- 	
-	
-	console.log("SHOW" + i + " +1");
-	console.log("HIDE" + j);
+var j=1;
 
+rightArrow.addEventListener("click", function(){
+	
+        if(i < slideshowImages.length -1){i++;}
+        if(j < slideshowImages.length-1){j++;}
+	slideshowImages[i].style.display="block"
+	slideshowImages[j].style.display="none";
+	
+
+	
 	
 	
 })

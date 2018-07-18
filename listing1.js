@@ -11,17 +11,16 @@ rightArrow.addEventListener("click", function(){
 	slideshowImages[i+1].style.display="block"
 	slideshowImages[i].style.display="none";
 	i=i+1;
-	console.log(i);
 })
 leftArrow.addEventListener("click", function(){
 	slideshowImages[i-1].style.display="block"
 	slideshowImages[i].style.display="none";
 	i=i-1;
-	console.log(i);
+
 })
 
 
-//Adds the google maps API    
+//Adds the google maps API
  function initMap() {
         var uluru = {lat: 32.829620, lng:-117.278161};
         var map = new google.maps.Map(document.getElementById('map'), {
@@ -33,14 +32,14 @@ leftArrow.addEventListener("click", function(){
           map: map
         });
       }
-	  
-//Adds functionality to mortgage calculator 
+
+//Adds functionality to mortgage calculator
 var mortgageForm= document.forms["mortgageform"];
 var mortgagePayment= document.getElementById("mortgage-payment");
 
 mortgageForm.addEventListener("submit", function(e){
-	e.preventDefault();
-	
+e.preventDefault();
+
 var downPayment= mortgageForm.querySelector('#downpayment').value;
 var loanAmount= mortgageForm.querySelector('#loanamount').value;
 var interestRate= mortgageForm.querySelector('#interestrate').value / 100;
